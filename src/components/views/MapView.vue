@@ -1,14 +1,14 @@
 <template>
-  <VMap/>
+  <SMap/>
 </template>
 
 <script lang="ts">
+  import { SMap } from '../smart/index';
   import { Component, Vue } from 'vue-property-decorator';
-  import { VMap } from '@/components';
 
   @Component({
     components: {
-      VMap
+      SMap
     },
   })
   export default class MapView extends Vue {

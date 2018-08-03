@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import { HomeView, MapView } from '@/views';
+import { HomeView, MapView } from '@/components/views';
 
 Vue.use(Router);
 
