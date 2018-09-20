@@ -43,7 +43,7 @@
     }
 
     private initByRoute(query: Dictionary<string>): void {
-      this.initMap(+query[SMap.LAT_KEY], +query[SMap.LNG_KEY], +[SMap.ZOOM_KEY]);
+      this.initMap(+query[SMap.LAT_KEY], +query[SMap.LNG_KEY], +query[SMap.ZOOM_KEY]);
       this.addEventHandlers();
     }
 
